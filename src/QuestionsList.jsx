@@ -155,8 +155,8 @@ const QuestionsList = [
         question:"Entschuldigung, wo ist denn hier der Bahnhof?",
         answersList: [
             {answer:"Dann gehen Sie weiter.", isCorrect:false},
-            {answer:"Sie können ihn nicht sehen.", isCorrect:true},
-            {answer:"Hier rechts und dann geradeaus.", isCorrect:false},
+            {answer:"Sie können ihn nicht sehen.", isCorrect:false},
+            {answer:"Hier rechts und dann geradeaus.", isCorrect:true},
         ]
     },{
         question:"Wann können wir uns treffen?",
@@ -218,4 +218,4 @@ const QuestionsList = [
 
 ].sort(() => Math.random() - 0.5);
 
-export default QuestionsList;
+export default QuestionsList
